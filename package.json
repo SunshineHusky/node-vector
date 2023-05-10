@@ -1,0 +1,19 @@
+{
+  "name": "gpt-vector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node langchain.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zilliz/milvus2-sdk-node": "^2.2.10",
+    "dotenv": "^16.0.3",
+    "http-proxy-agent": "^6.0.1",
+    "https-proxy-agent": "^6.1.0",
+    "langchain": "^0.0.71"
+  }
+}
